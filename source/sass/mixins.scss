@@ -19,7 +19,7 @@
 }
 
 @mixin active {
-  &.focus-visible:active {
+  &:active:not(.focus-visible) {
     @content;
   }
 }
@@ -31,7 +31,8 @@
     }
   }
 
-  &.focus-visible:focus {
+  &.focus-visible:focus,
+  &:focus-visible {
     @content;
   }
 }
@@ -50,8 +51,8 @@
   }
 }
 
-@mixin vp-1279 {
-  @media (max-width: ($vp-1280 - 1px)) {
+@mixin vp-1199 {
+  @media (max-width: ($vp-1200 - 1px)) {
     @content;
   }
 }
