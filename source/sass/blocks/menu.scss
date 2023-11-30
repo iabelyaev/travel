@@ -1,0 +1,23 @@
+//.menu {
+//  display: flex;
+//  flex-direction: ;
+//}
+
+.menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  max-width: 572px;
+  gap: 30px;
+}
+
+.menu__link {
+  font-size: inherit;
+  font-weight: 400;
+  line-height: 16px;
+  color: $color-default-white;
+}
