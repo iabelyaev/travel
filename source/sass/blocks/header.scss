@@ -1,4 +1,8 @@
 .header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -21,4 +25,17 @@
   font-weight: 600;
   line-height: 18px;
   color: $color-default-white;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 205px;
+  height: 62px;
+}
+
+.header__logo img {
+  width: 142px;
+  height: 42px;
 }
