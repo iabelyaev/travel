@@ -20,57 +20,93 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
-<!--        <picture>-->
-<!--          <img src="./img/hero-slide-1.jpg" width="1440" height="800" srcset="./img/hero-slide-1@2x.jpg 2x" alt="">-->
-<!--        </picture>-->
-        <div class="header__container">
-          <div class="header__wrapper">
-            <a class="header__logo logo" href="#">
-              <img src="./img/svg/logotype.svg" width="205" height="62" alt="Логотип.">
-            </a>
-            <nav class="header__menu menu">
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a class="menu__link" href="/">
-                    Туры
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="/">
-                    Обучение
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="/">
-                    О нас
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="/">
-                    Отзывы
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="/">
-                    Фотографии
-                  </a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="/">
-                    Контакты
-                  </a>
-                </li>
-              </ul>
-            </nav>
-            <a class="header__phone" href="tel:88007253232">8&nbsp;800&nbsp;725-32-32</a>
+      <div class="hero">
+        <header class="header">
+          <div class="header__container">
+            <div class="header__wrapper">
+              <a class="header__logo logo" href="#">
+                <img src="./img/svg/logotype.svg" width="205" height="62" alt="Логотип.">
+              </a>
+              <nav class="header__menu menu">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a class="menu__link" href="/">
+                      Туры
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="/">
+                      Обучение
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="/">
+                      О нас
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="/">
+                      Отзывы
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="/">
+                      Фотографии
+                    </a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="menu__link" href="/">
+                      Контакты
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <a class="header__phone" href="tel:88007253232">8&nbsp;800&nbsp;725-32-32</a>
+            </div>
+          </div>
+        </header>
+
+        <div class="hero__block swiper">
+          <div class="container">
+            <div class="hero__wrapper swiper-wrapper">
+              <div class="hero__content swiper-slide">
+                <div class="hero__slide">
+                  <div class="hero__text">
+                    <h1>Захватывающие вершины Кавказа</h1>
+                    <p>В&nbsp;сопровождении опытных гидов вы&nbsp;пройдёте через&nbsp;потрясающие ландшафты и&nbsp;совершите восход на&nbsp;вершину горы Чегет.</p>
+                  </div>
+                  <a class="btn" href="/">Смотреть тур</a>
+                  <div class="hero__details">
+                    <div class="hero__detail">
+                      <svg width="12" height="12">
+                        <use href="./img/sprite.svg#moon"></use>
+                      </svg>
+                      <span>6 дней/5 ночей</span>
+                    </div>
+                    <div class="hero__detail">
+                      <svg width="12" height="12">
+                        <use href="./img/sprite.svg#level"></use>
+                      </svg>
+                      <span>Высокая сложность</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero__video">
+                  <picture>
+                    <img src="./img/video.jpg" srcset="./img/video@2x.jpg 2x">
+                  </picture>
+                  <button class="hero__video-play">
+                    <svg width="12" height="22">
+                      <use href="./img/sprite.svg#play"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </header>
+      </div>
       <main>
-        <section class="intro">
-
-        </section>
       </main>
       <footer>
         <div class="container"></div>
